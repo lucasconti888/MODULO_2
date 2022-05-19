@@ -38,9 +38,7 @@
             s=checkTime(s);
             document.getElementById('txt').innerHTML=h+":"+m+":"+s;
             t=setTimeout('startTime()',500);
-            
             }
-            
             function checkTime(i)
             {
             if (i<10)
@@ -50,12 +48,14 @@
             return i;
             }
             </script>
-            
-            
-            <div id="txt" style="margin-top:8px;margin-left:8px">
+
+            <div class="fundo">
+            <div id="txt" style="margin-top:3px;">
             <script type="text/javascript">document.write(startTime())</script>
             </div>
-
+            </div>
+            
+            
         </div>
       </div>
     </div>
@@ -67,7 +67,7 @@
   <p> 18 anos </p>
 
   <h3>Trajetória:</h3>
-  <div class="spinner-grow text-primary" role="status">
+  <div class="spinner-grow text" role="status">
     <span class="visually-hidden">Loading...</span>
   </div>
   <p> Durante o 8º ano do fund. participei do PIC, o Programa de Iniciação Científica, que era oferecido a medalhistas
