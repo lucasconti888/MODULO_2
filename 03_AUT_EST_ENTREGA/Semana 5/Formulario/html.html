@@ -26,7 +26,17 @@
           </a>
           <a class="nav-link" href="#au">Contato</a>
 
-     
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#spin").hide();
+  });
+  $("#show").click(function(){
+    $("#spin").show();
+  });
+});
+      </script>
 
           <script type="text/javascript">
             function startTime()
@@ -69,6 +79,13 @@
   <p> 18 anos </p>
 
 
+  <button id="hide">Esconder</button>
+  <br>
+  <br>
+  <button id="show">Ver trajetória</button>
+  <br>
+  <div id="spin">
+  
   <h3>Trajetória:</h3>
   <div class="spinner-grow text" role="status">
     <span class="visually-hidden">Loading...</span>
