@@ -1,14 +1,14 @@
-
 const express = require('express'); 
 const app = express();
-
 const hostname = '127.0.0.1';
 const port = 3052;
 const sqlite3 = require('sqlite3').verbose(); 
 const DBPATH = 'dbUser.db'; 
 const bodyParser = require('body-parser');
 const urlencodedParser = bodyParser.urlencoded({ extended: false })
+
 app.use(express.static("../frontend/"));
+
 app.get('/users', (req, res) => {
   res.statusCode = 200;
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -23,7 +23,6 @@ var sql = 'SELECT * FROM tbUser ORDER BY title COLLATE NOCASE';
   });
   db.close();
 });
-
 
 app.post('/userinsert', urlencodedParser, (req, res) => {
   res.statusCode = 200;
