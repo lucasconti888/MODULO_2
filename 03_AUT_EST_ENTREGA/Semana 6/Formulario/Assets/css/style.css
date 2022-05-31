@@ -1,0 +1,32 @@
+.foto-perfil{
+    border-radius: 100%;
+    max-width: 150px;
+    border-style: groove;
+    margin-top: 20px;
+}
+.in:hover{
+    transform: scale(1.1)
+}
+.git:hover{
+    transform: scale(1.1)
+}
+body{
+    height: 1000px;
+    text-align: center;
+    background: linear-gradient(25deg,rgb(145, 63, 158),rgb(255, 255, 255));
+    
+}
+.fundo {
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    font-weight: bold;
+    background: #ffffff;
+    margin-left: 560px;
+    box-shadow: 0 0px 20px rgba(255, 246, 79, 0.858);
+    border-radius: 10px;
+    border-style:double;
+    
+}
+
+
