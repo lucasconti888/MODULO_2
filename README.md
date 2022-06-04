@@ -18,3 +18,5 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/lucasconti888/MODULO_2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 05/05/2022 - Entrega 3 </a>
 <br>
 <a href="https://github.com/lucasconti888/MODULO_2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 21/05/2022 - Entrega 5 (apenas ex1) </a>
+<br>
+<a href="https://github.com/lucasconti888/MODULO_2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%207"> 04/06/2022 - Entrega 7 </a>
