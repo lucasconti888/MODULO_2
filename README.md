@@ -16,4 +16,5 @@ Minhas entregas estão definidas aqui:
 <a href="https://github.com/Intelihub/Template_Aluno/blob/main/03_EX_OBRIGATORIOS/Coloque%20aqui%20entregas%20de%20exerc%C3%ADcios%20obrigat%C3%B3rios.rtf"> 19/04/2022 - Entrega 1 </a>
 <br>
 <a href="https://github.com/lucasconti888/MODULO_2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%203"> 05/05/2022 - Entrega 3 </a>
+<br>
 <a href="https://github.com/lucasconti888/MODULO_2/tree/main/04_AUT_EST_EX_OBRIGATORIOS/Semana%205"> 21/05/2022 - Entrega 5 (apenas ex1) </a>
